@@ -44,7 +44,7 @@
 &trans  &trans  &trans          &kp UP_ARROW    &trans     &trans                  &trans  &trans            &trans             &trans                &trans                 &trans
 &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans                  &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp UNDERSCORE        &kp MINUS              &kp PLUS
 &trans  &trans  &trans          &trans          &trans     &trans                  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
-&trans  &trans  &trans          &trans          &trans     &trans  &trans  &trans  &trans  &kp LG(RIGHT)     &kp LG(UP_ARROW)   &kp LG(LEFT_ARROW)    &trans                 &trans
+&trans  &trans  &trans          &trans          &trans     &trans  &trans  &trans  &trans  &kp LC(RIGHT)     &kp LC(UP_ARROW)   &kp LC(LEFT_ARROW)    &trans                 &trans
 &trans  &trans  &trans          &trans          &trans     &trans  &trans  &trans  &mo 2                                                              &trans                 &trans
             >;
 
