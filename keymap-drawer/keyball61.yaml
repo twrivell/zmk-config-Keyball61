@@ -43,7 +43,7 @@ layers:
   - C
   - V
   - B
-  - {t: PLAY PAUSE, h: FUN}
+  - {t: '$$mdi:play-pause$$', h: FUN}
   - {t: V, h: Ctl+X}
   - N
   - M
@@ -441,3 +441,13 @@ combos:
   k: Ctl+$$mdi:arrow-right-bold$$
 - p: [32, 33]
   k: Ctl+$$mdi:arrow-left-bold$$
+- p: [26, 25]
+  k: {t: C, h: '$$mdi:apple-keyboard-command$$'}
+- p: [27, 28]
+  k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
+- p: [25, 28]
+  k: {t: X, h: '$$mdi:apple-keyboard-command$$'}
+- p: [31, 34]
+  k: Gui+Sft+4
+- p: [45, 48]
+  k: Gui+Sft+5
