@@ -84,7 +84,7 @@
 
         right_click {
             bindings = <&mkp RCLK>;
-            key-positions = <45 46>;
+            key-positions = <46 47>;
             require-prior-idle-ms = <150>;
         };
 
