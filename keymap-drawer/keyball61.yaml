@@ -453,7 +453,7 @@ combos:
   k: Gui+Sft+5
 - p: [45, 46]
   k: $$mdi:mouse-left-click-outline$$
-- p: [45, 46]
+- p: [46, 47]
   k: $$mdi:mouse-right-click-outline$$
 - p: [38, 39]
   k: {t: Z, h: '$$mdi:apple-keyboard-command$$'}
