@@ -37,7 +37,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: <, h: SCROLL}
-  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -50,14 +50,14 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: Gui+Sft+Z, h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:apple-keyboard-caps$$', h: toggle}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {t: C, h: LGUI}
   - $$mdi:mouse-left-click-outline$$
-  - {t: V, h: '$$mdi:mouse-right-click-outline$$'}
+  - {t: '$$mdi:mouse-right-click-outline$$', h: CODE}
   - {t: RETURN, h: CODE}
   - $$mdi:keyboard-space$$
   - CLK
@@ -119,8 +119,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -280,8 +280,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -441,13 +441,21 @@ combos:
   k: Ctl+$$mdi:arrow-right-bold$$
 - p: [32, 33]
   k: Ctl+$$mdi:arrow-left-bold$$
-- p: [26, 25]
+- p: [26, 27]
   k: {t: C, h: '$$mdi:apple-keyboard-command$$'}
 - p: [27, 28]
   k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
-- p: [25, 28]
+- p: [28, 26]
   k: {t: X, h: '$$mdi:apple-keyboard-command$$'}
 - p: [31, 34]
   k: Gui+Sft+4
 - p: [45, 48]
   k: Gui+Sft+5
+- p: [45, 46]
+  k: $$mdi:mouse-left-click-outline$$
+- p: [45, 46]
+  k: $$mdi:mouse-right-click-outline$$
+- p: [38, 39]
+  k: {t: Z, h: '$$mdi:apple-keyboard-command$$'}
+- p: [39, 40]
+  k: Gui+Sft+Z
