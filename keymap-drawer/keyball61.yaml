@@ -44,7 +44,7 @@ layers:
   - V
   - B
   - {t: '$$mdi:play-pause$$', h: FUN}
-  - {t: V, h: Ctl+X}
+  - {t: Gui+J, h: Ctl+X}
   - N
   - M
   - {t: ',', s: <}
@@ -447,13 +447,13 @@ combos:
   k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
 - p: [28, 26]
   k: {t: X, h: '$$mdi:apple-keyboard-command$$'}
-- p: [31, 34]
-  k: Gui+Sft+4
 - p: [45, 48]
+  k: Gui+Sft+4
+- p: [45, 49]
   k: Gui+Sft+5
-- p: [45, 46]
+- p: [31, 34]
   k: $$mdi:mouse-left-click-outline$$
-- p: [46, 47]
+- p: [31, 35]
   k: $$mdi:mouse-right-click-outline$$
 - p: [38, 39]
   k: {t: Z, h: '$$mdi:apple-keyboard-command$$'}
